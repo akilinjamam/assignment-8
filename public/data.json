@@ -1,0 +1,44 @@
+[
+    {
+        "id": "623820dbddc2bdcc52ef2b6c",
+        "name": "Rachel Sharp",
+        "image": "image/1.jpg",
+        "phone": "+1 (907) 438-2171",
+        "price": 200
+    },
+    {
+        "id": "623820dbf692870b0249744d",
+        "name": "Brandy Carson",
+        "image": "image/2.jpg",
+        "phone": "+1 (966) 551-2773",
+        "price": 240
+    },
+    {
+        "id": "623820db46e9b9c0794a2988",
+        "name": "Mckinney Christensen",
+        "image": "image/3.jpg",
+        "phone": "+1 (834) 564-3138",
+        "price": 130
+    },
+    {
+        "id": "623820db677708f053808dc5",
+        "name": "Nola Lowery",
+        "image": "image/4.jpg",
+        "phone": "+1 (900) 426-3783",
+        "price": 400
+    },
+    {
+        "id": "623820dbd67aec72c0b9edc2",
+        "name": "Twila Morrow",
+        "image": "image/5.jpg",
+        "phone": "+1 (933) 485-2387",
+        "price": 332
+    },
+    {
+        "id": "623820dbdd3be83ad8dff9b2",
+        "name": "Perkins Hale",
+        "image": "image/6.jpg",
+        "phone": "+1 (918) 448-3135",
+        "price": 50
+    }
+]
