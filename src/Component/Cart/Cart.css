@@ -1,0 +1,11 @@
+
+
+
+.for-flex{
+    display: flex;
+    margin: 10px;
+}
+
+.cart p{
+    margin-left: 15px;
+}

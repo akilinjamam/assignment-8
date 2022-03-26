@@ -3,7 +3,18 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    padding-left: 40px;
    
+}
+
+.the-cart {
+    margin-left: 20px;
+    background-color: rgb(252, 200, 200);
+    height: 400px;
+    padding: 10px;
+    border-radius: 20px 0px 0px 20px;
+    position: sticky;
+    top: 0;
 }
 
 

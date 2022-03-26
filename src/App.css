@@ -33,6 +33,7 @@ body{
 
 .single{
   text-align: center;
+  font-size: 25px;
 }
 
 @keyframes App-logo-spin {

@@ -1,8 +1,8 @@
 .watch{
-    border: 1px solid ghostwhite;
+    border: 1px solid gray;
     border-radius: 20px;
     position: relative;
-    height: 400px;
+    height: 450px;
     background-color: azure;
 }
 
@@ -17,11 +17,6 @@
     text-align: center;
 }
 
-.the-cart {
-    margin-left: 20px;
-    background-color: rgb(252, 200, 200);
-    height: 600px;
-}
 
 button{
     width: 100%;
@@ -33,3 +28,5 @@ button{
 button:hover{
     background-color: aqua;
 }
+
+
