@@ -45,7 +45,12 @@ const Watches = () => {
                 {
                     cart.map(theCart => <Cart key={theCart.id} name={theCart.name} image={theCart.image}></Cart>)
                 }
+
+                <button className='btn-two' style={{ border: 'none', borderRadius: '10px' }}> <p> Choose One for Me</p>
+                </button>
             </div>
+
+
 
 
         </div>
