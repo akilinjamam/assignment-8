@@ -18,8 +18,13 @@ const Watches = () => {
 
     const addToCart = (watch) => {
         console.log(watch);
-        const newCart = [...cart, watch]
-        setCart(newCart)
+        if (cart.length <= 3) {
+            const newCart = [...cart, watch]
+            setCart(newCart)
+        } else {
+            alert('you can select maximum Four')
+        }
+
     }
     return (
         <div className='wathes-and-cart' >
