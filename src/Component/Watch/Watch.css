@@ -1,0 +1,35 @@
+.watch{
+    border: 1px solid ghostwhite;
+    border-radius: 20px;
+    position: relative;
+    height: 400px;
+    background-color: azure;
+}
+
+.watch img{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+
+}
+
+.watch-detail .h2{
+    text-align: center;
+}
+
+.the-cart {
+    margin-left: 20px;
+    background-color: rgb(252, 200, 200);
+    height: 600px;
+}
+
+button{
+    width: 100%;
+    border: none;
+    border-radius: 0px 0px 20px 20px;
+}
+
+
+button:hover{
+    background-color: aqua;
+}

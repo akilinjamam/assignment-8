@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import Cart from '../Cart/Cart';
+
 import Watch from '../Watch/Watch';
 import './Watches.css'
 
@@ -12,10 +14,17 @@ const Watches = () => {
             .then(data => setWatches(data))
     }, [])
     return (
-        <div className='watches'>
-            {
-                watches.map(watch => <Watch image={watch.image} watch={watch} key={watch.id} id={watch.id}></Watch>)
-            }
+        <div className='wathes-and-cart' >
+            <div className='watches'>
+                {
+                    watches.map(watch => <Watch image={watch.image} watch={watch} key={watch.id} id={watch.id}></Watch>)
+                }
+            </div>
+
+            <div className='the-cart'>
+                <Cart></Cart>
+            </div>
+
 
         </div>
     );
