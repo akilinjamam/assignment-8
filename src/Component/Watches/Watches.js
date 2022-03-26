@@ -16,14 +16,20 @@ const Watches = () => {
     }, []);
 
 
-    const addToCart = (watch) => {
-        console.log(watch);
-        if (cart.length <= 3) {
-            const newCart = [...cart, watch]
-            setCart(newCart)
+    const addToCart = (selectedWatch) => {
+        console.log(selectedWatch);
+        const matches = cart.find(theWatch => theWatch.id === selectedWatch.id);
+        if (matches) {
+            alert('cannot select similar product twice');
         } else {
-            alert('you can select maximum Four')
+            if (cart.length <= 3) {
+                const newCart = [...cart, selectedWatch]
+                setCart(newCart)
+            } else {
+                alert('you can select maximum Four')
+            }
         }
+
 
     }
     return (
@@ -35,7 +41,7 @@ const Watches = () => {
             </div>
 
             <div className='the-cart'>
-                <h2>selected watch: {cart.length}</h2>
+                <h2>Selected watches: {cart.length}</h2>
                 {
                     cart.map(theCart => <Cart key={theCart.id} name={theCart.name} image={theCart.image}></Cart>)
                 }
