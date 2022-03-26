@@ -30,12 +30,12 @@ const Watches = () => {
         <div className='wathes-and-cart' >
             <div className='watches'>
                 {
-                    watches.map(watch => <Watch image={watch.image} watch={watch} key={watch.id} name={watch.name} addToCart={() => addToCart(watch)}></Watch>)
+                    watches.map(watch => <Watch image={watch.image} watch={watch} key={watch.id} name={watch.name} addToCart={() => addToCart(watch)} price={watch.price}></Watch>)
                 }
             </div>
 
             <div className='the-cart'>
-                <h2>selected watch {cart.length}</h2>
+                <h2>selected watch: {cart.length}</h2>
                 {
                     cart.map(theCart => <Cart key={theCart.id} name={theCart.name} image={theCart.image}></Cart>)
                 }

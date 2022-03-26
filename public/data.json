@@ -39,41 +39,41 @@
         "name": "Montblanc",
         "image": "image/6.jpg",
         "phone": "+1 (918) 448-3135",
-        "price": 50
+        "price": 414
     },
     {
         "id": "7",
         "name": "Cartier",
         "image": "image/7.jpg",
         "phone": "+1 (918) 448-3135",
-        "price": 50
+        "price": 350
     },
     {
         "id": "8",
         "name": "Fast track",
         "image": "image/8.jpg",
         "phone": "+1 (918) 448-3135",
-        "price": 50
+        "price": 300
     },
     {
         "id": "9",
         "name": "Titan",
         "image": "image/9.jpg",
         "phone": "+1 (918) 448-3135",
-        "price": 50
+        "price": 430
     },
     {
         "id": "10",
         "name": "Rolex",
         "image": "image/10.jpg",
         "phone": "+1 (918) 448-3135",
-        "price": 50
+        "price": 510
     },
     {
         "id": "11",
         "name": "Hublot",
         "image": "image/11.jpg",
         "phone": "+1 (918) 448-3135",
-        "price": 50
+        "price": 500
     }
 ]
